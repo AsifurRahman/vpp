@@ -6,6 +6,7 @@ import com.asif.backend.feature.battery.*;
 import com.asif.backend.feature.batterysave.BSStatus;
 import com.asif.backend.feature.batterysave.BatterySaveService;
 import com.asif.backend.feature.batterysave.BatterySaveStatus;
+import com.asif.vpp.feature.battery.BatteryRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -17,7 +18,8 @@ import org.springframework.security.core.context.SecurityContextHolder;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.*;
 
 class BatteryServiceTest {

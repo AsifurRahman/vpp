@@ -20,8 +20,8 @@ services:
       RMS_JWT_VALIDATION_TIME: 600000
       RMS_JWT_REFRESH_TIME: 86400000
 
-      RMS_OPENAPI_LOCAL_URL: http://localhost:8088
-      RMS_OPENAPI_DEV_URL: http://localhost:8088
+      RMS_OPENAPI_LOCAL_URL: http://localhost:8080
+      RMS_OPENAPI_DEV_URL: http://localhost:8080
 
     depends_on:
       - db

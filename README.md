@@ -25,7 +25,7 @@ Start the application using Docker Compose:
 
 docker-compose up --build
 
-Access the application at http://localhost:8080. 
+Access the application at http://localhost:8080/swagger-ui.html. 
 
 ## Login-Credential: 
 username:admin  

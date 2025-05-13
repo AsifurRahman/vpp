@@ -1,12 +1,12 @@
 package com.asif.vpp;
 
-import com.asif.backend.common.exception.RmsServerException;
-import com.asif.backend.config.io.BatteryWebSocketHandler;
-import com.asif.backend.feature.battery.*;
-import com.asif.backend.feature.batterysave.BSStatus;
-import com.asif.backend.feature.batterysave.BatterySaveService;
-import com.asif.backend.feature.batterysave.BatterySaveStatus;
-import com.asif.vpp.feature.battery.BatteryRepository;
+
+import com.asif.vpp.common.exception.RmsServerException;
+import com.asif.vpp.config.io.BatteryWebSocketHandler;
+import com.asif.vpp.feature.battery.*;
+import com.asif.vpp.feature.batterysave.BSStatus;
+import com.asif.vpp.feature.batterysave.BatterySaveService;
+import com.asif.vpp.feature.batterysave.BatterySaveStatus;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -20,6 +20,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 class BatteryServiceTest {

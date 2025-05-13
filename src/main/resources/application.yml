@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8080
 
 spring:
   jpa:
@@ -18,5 +18,5 @@ rms:
     refresh-time: 86400000
 
   openapi:
-    local-url: http://localhost:8088
-    dev-url: http://localhost:8088
+    local-url: http://localhost:8080
+    dev-url: http://localhost:8080

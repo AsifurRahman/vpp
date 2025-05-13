@@ -3,7 +3,7 @@
 This project is a Spring Boot application containerized using Docker and connected to a PostgreSQL database.
 
 ## Features
-
+- **JAVA**: 21 VERSION.
 - **Spring Boot**: Simplified application development.
 - **PostgreSQL**: Relational database for data persistence.
 - **Docker**: Containerized deployment.
